@@ -26,6 +26,7 @@ p{
     font-family: 'Yeseva One', cursive;
     color: #333333;
     font-size: 60px;
+    font-weight: 400;
 }
 .header-section p{
     margin: 30px 0;
@@ -124,6 +125,31 @@ line-height: 54px;
     text-align: right;
 }
 /* blog section end  */
+/* get in touch start  */
+.get-in-touch-section{
+    padding-bottom: 80px;
+}
+.get-in-touch-section h1{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-form input{
+    width: 65%;
+    border: 1px solid #111;
+    border-radius: 100px; 
+    padding: 13px 6px 13px 20px;
+}
+.contact-form input::placeholder{
+    font-size: 17px;
+}
+.contact-form input:focus{
+    outline: none;
+}
+.contact-form a{
+    border-radius: 50px;
+}
+/* get in touch end  */
 /* footer start  */
 footer{
     text-align: center;
